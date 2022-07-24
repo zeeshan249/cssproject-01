@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,200&family=Montserrat:ital@1&display=swap');
+body{
+   font-family: 'Montserrat';
+}
+*{
+   margin: 0;
+   padding: 0;
+  
+}
+.navbar-container{
+   display: flex;
+   justify-content: space-between;
+   height:15vh;
+}
+.navbar-container .list{
+ 
+      flex:7;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style-type: none;
+      margin-top: 35px;
+ 
+}
+.navbar-container div {
+   flex:1;
+   margin-left: 70px;
+   margin-top: 40px;
+}
+.nav-logo{
+   display:flex;
+   padding-left: 80px;
+}
+.list-item{
+   text-decoration: none;
+   font-family: 'Courier New';
+   font-weight: 900;
+   font-size: 25px;
+}
+.container .navbar-container div img{
+
+   padding:20px
+}
+.button-group {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items:center;
+
+   
+}
+.search-icon{
+   position: absolute;
+   align-items:center;
+   padding-right: 60px;
+   padding-top: 0px;
+}
+
+
+.nav-button{
+   position: absolute;
+   margin-left:200px;
+   margin-top: -30px;
+   padding: 15px 15px 10px;
+   border: 2px solid #0e0b01;
+   font-weight: normal;
+   text-transform: uppercase;
+   font-size: 20px;
+   border-radius: 20px;
+   width: 150px;
+}
+.hero-container{
+   position: relative;
+}
+.square{
+   position: absolute;
+   top: 240px;
+   left: 170px;
+   z-index: -5;
+}
+.hero-container > div > img{
+ position: absolute;
+ width: 400px;
+ height:500px;
+ top:90px;
+ left:90px;
+}
+.star{
+   position: absolute;
+   left: 1400px;
+   top: 100px;
+}
+.globe{
+   position: absolute;
+ 
+   top:60px;
+   left:800px;
+
+}
+.hero-container-right{
+   position: relative;
+   
+}
+.hero-heading{
+   position: absolute;
+   left:650px;
+   top:180px;
+   font-weight: 900;
+   font-family: 'Courier New';
+   font-size: 65px;
+}
+.hero-description{
+   position: absolute;
+   left:750px;
+   top:270px;
+   text-align: center;
+   word-spacing: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   width: 670px;
+   color:#758283;
+}
+ .button-email{
+   position: absolute;
+   left: 870px;
+   top:390px;
+   text-decoration: none;
+   color: #0e0b01;
+   
+   background-color: #ffffff;
+   padding: 15px 40px;
+  
+   font-weight: normal;
+   text-transform: uppercase;
+ 
+   border-radius: 20px;
+   
+}
+.button-join{
+   position: absolute;
+   left: 1080px;
+   top:390px;
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.8);
+    
+   background-color: #000000;
+   padding: 15px 60px;
+  
+   font-weight: bolder;
+   text-transform: uppercase;
+ 
+   border-radius: 20px;
+}
+.contact-heading{
+   position: absolute;
+  left:1020px;
+  top:470px;
+  color:#758283;
+}
+.icons{
+   position: absolute;
+   left:980px;
+   top:500px;
+  
+}
+
