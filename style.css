@@ -27,10 +27,7 @@ body{
    margin-left: 70px;
    margin-top: 40px;
 }
-.nav-logo{
-   display:flex;
-   padding-left: 80px;
-}
+
 .list-item{
    text-decoration: none;
    font-family: 'Courier New';
@@ -164,4 +161,141 @@ body{
    top:500px;
   
 }
+@media only screen and (max-width: 968px) and (max-height:1000px) {
+  
+   .navbar-container .list{
+      display: none;
+  }
+ 
+  .hero-container > div > img{
+   position: absolute;
+   width: 160px;
+   height:200px;
+   top:10px;
+   left:10px;
+  }
+
+  .navbar-container img{
+   width: 90px;
+   margin-left: -70px;
+   margin-top: -40px;
+ 
+  }
+  .button-group {
+   display: flex;
+   position: absolute;
+  right:110%;
+  top:-4%;
+
+   
+}
+.nav-button{
+
+   padding: 10px;
+   border: 2px solid #0e0b01;
+   font-weight: normal;
+   text-transform: uppercase;
+   font-size: 10px;
+   border-radius: 20px;
+  
+   
+}
+.square img{
+   position: absolute;
+   top: -190px;
+   left: -110px;
+   z-index: -5;
+   width: 150px;
+   height: 200px;
+}
+.search-icon{
+  position: absolute;
+  left:510%;
+  top:-62%;
+  
+  
+}
+.star{
+   position: absolute;
+   left: 280px;
+   top: 10px;
+  
+}
+.globe{
+   position: absolute;
+ 
+   top:120px;
+   left:280px;
+
+}
+.hero-container-right{
+   position: relative;
+   
+}
+.hero-heading{
+   position: absolute;
+   left:30px;
+   top:290px;
+   font-weight: 900;
+   font-family: 'Courier New';
+   font-size: 25px;
+}
+.hero-description{
+   position: absolute;
+   left:10px;
+   top:320px;
+   text-align: center;
+   word-spacing: normal;
+   font-size: 20px;
+   margin: 0;
+   padding: 0;
+   width: 350px;
+   color:#758283;
+}
+.button-email{
+   position: absolute;
+   left: 100px;
+   top:580px;
+   text-decoration: none;
+   color: #0e0b01;
+   
+   background-color: #ffffff;
+   padding: 15px 30px;
+  
+   font-weight: normal;
+   text-transform: uppercase;
+ 
+   border-radius: 20px;
+   
+}
+.button-join{
+   position: absolute;
+   left: 100px;
+   top:670px;
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.8);
+    
+   background-color: #000000;
+   padding: 15px 50px;
+  
+   font-weight: bolder;
+   text-transform: uppercase;
+ 
+   border-radius: 20px;
+}
+.contact-heading{
+   position: absolute;
+   left: 140px;
+   top:740px;
+  color:#758283;
+}
+
+.icons{
+   display: flex;
+ width: 102px;
+   left:90px;
+   top:770px;
+  
+}
+     }
 
